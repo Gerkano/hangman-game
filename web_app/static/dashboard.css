@@ -1,0 +1,11 @@
+/* * {
+  display: block;
+} */
+
+.hidden-word {
+  letter-spacing: 10px;
+  border: solid 1px;
+  width: fit-content;
+  padding-bottom: 5px;
+  padding-left: 9px;
+}
