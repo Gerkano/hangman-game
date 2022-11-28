@@ -1,11 +1,75 @@
-/* * {
-  display: block;
-} */
+* {
+  margin: 0px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
 
 .hidden-word {
   letter-spacing: 10px;
   border: solid 1px;
   width: fit-content;
-  padding-bottom: 5px;
+  border-radius: 5%;
   padding-left: 9px;
+  height: fit-content;
+  margin: 6px;
+  justify-content: center;
+}
+.greeting {
+  grid-area: header;
+}
+
+.hidden-word,
+.guess {
+  grid-area: main;
+  grid-row: initial;
+}
+.logout {
+  grid-area: footer;
+  border: 1px solid;
+  width: fit-content;
+  height: fit-content;
+  padding: 2px;
+  border-radius: 5%;
+}
+
+.container {
+  width: 700px;
+  height: 800px;
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu menu main main main right"
+    "menu menu main main main footer"
+    "menu menu main main main footer";
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.guess {
+  border: 2px solid;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 5%;
+  height: fit-content;
+}
+
+.flash-used {
+  grid-area: menu;
 }

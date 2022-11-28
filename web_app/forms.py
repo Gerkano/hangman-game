@@ -37,7 +37,7 @@ class RegistrationForm(FlaskForm):
         if existing_user_username:
             flash(f'Username already exists: {username.data}')
             raise ValidationError(
-                "That username or email already exists. Please chose a different one.")
+                "That username already exists. Please chose a different one.")
 
     def validate_email(self, email):
         existing_user_email = User.query.filter_by(
@@ -46,3 +46,11 @@ class RegistrationForm(FlaskForm):
             flash(f'Email already exists: {email.data}')
             raise ValidationError(
                 "That email already exists. Please chose a different one.")
+
+class GameStart(FlaskForm):
+    guess_letter = StringField(validators=[InputRequired(), Length(
+        min=1, max=1)], render_kw={"placeholder": "Guess"})
+    submit = SubmitField("Guess")
+
+class StartNewGame(FlaskForm):
+    submit = SubmitField("Start new game")

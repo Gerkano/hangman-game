@@ -8,8 +8,26 @@
     <title>Dashboard</title>
   </head>
   <body>
-    <h1>Hello, {{username}}, you are logged in</h1>
-    <h2 class="hidden-word">{{hangman}}</h2>
-    <a href="{{url_for('logout')}}">Logout</a>
+    <div class="container">
+      <div class="greeting">
+        <h1>Hello, {{username}}, you are logged in</h1>
+      </div>
+      <div class="hidden-word">
+        <h2 id="hidden_word">{{hangman}}</h2>
+      </div>
+      <div class="guess">
+        <form method="POST" action="" id="letter-input">
+          {{ form.hidden_tag() }} {{ form.guess_letter }} {{ form.submit }}
+      </div>
+      <div class="flash-used">
+        {% with messages = get_flashed_messages(with_categories=true) %} {% if
+        messages %} {% for category, message in messages %}
+        <div>{{ message }}</div>
+        {% endfor %} {% endif %} {% endwith %}
+      </div>
+      <div class="logout">
+        <a href="{{url_for('logout')}}">Logout</a>
+      </div>
+    </div>
   </body>
 </html>
