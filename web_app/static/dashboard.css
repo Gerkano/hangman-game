@@ -1,17 +1,155 @@
-* {
-  margin: 0px;
+@font-face {
+  font-family: "MysteryFont";
+  src: url(fonts/KingdomHeroDemoRegular.ttf);
+}
+@font-face {
+  font-family: "WitchFont";
+  src: url(fonts/FunnyWitchesDemoRegular.ttf);
 }
 
-body {
-  width: 100%;
-  height: 100%;
+html {
+  background-color: #f8eeee;
+}
+#border {
+  position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* width: min-content; */
+}
+
+.outline {
+  width: 1281px;
+  height: 813px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.smoke {
+  width: 1281px;
+  height: 813px;
+  /* position: absolute; */
+  border: 12px solid;
+}
+
+.plank1 {
+  width: 139.6px;
+  height: 770px;
+  position: absolute;
+  left: 37%;
+  bottom: 4.3%;
+}
+
+.plank2 {
+  width: 457px;
+  height: 396px;
+  position: absolute;
+  top: 2.2%;
+  left: 35.4%;
+}
+.plank3 {
+  width: 264px;
+  height: 410px;
+  position: absolute;
+}
+
+.hidden-word {
+  letter-spacing: 15px;
+  border: solid 1px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5%;
+  justify-content: left;
+  font-family: "MysteryFont", sans-serif;
+  background-color: black;
+  color: rgb(223, 190, 43);
+  font-size: 10mm;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  padding: 0%;
+}
+h2 {
+  margin: 0%;
+  padding: 0%;
+  /* position: absolute; */
+}
+.guess {
+  border: 2px solid;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 5%;
+  height: fit-content;
+  align-items: center;
+  justify-content: initial;
+  position: absolute;
+  top: 0%;
+  left: 30%;
+}
+
+h1 {
+  padding-bottom: 200px;
+  font-family: "WitchFont";
+  position: relative;
+  left: 40%;
+}
+/* background-color: #998c8c; */
+
+/* html {
+  height: 50%;
+  width: 50%;
+}
+body { */
+/* height: 500px;
+  width: 1000px; */
+/* width: 100%;
+  height: 100%; */
+/* display: grid;
   align-content: center;
   align-items: center;
   justify-items: center;
-  justify-content: center;
-}
+  justify-content: center; */
 
+/* .border { */
+/* background-image: url(../static/images/hangman_0000_BG.png); */
+/* background-image: url(../static/images/hangman_0001_Background.png); */
+/* background-image: url(../static/images/kindpng_1078214.png); */
+/* background-size: cover; */
+/* background-repeat: no-repeat; */
+/* grid-area: main; */
+/* align-items: center;
+  justify-items: center;
+  justify-content: fit-content;
+  width: 100%;
+  height: 25%;
+} */
+/* .plank1 {
+  width: 11.2%;
+  height: 11.2%;
+  position: relative;
+  left: -22%;
+  top: -50%;
+} */
+
+/* grid-area: main; */
+
+/* .container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "guess guess hidden hidden right"
+    "menu main main main right"
+    "menu main main main right"
+    "menu main main main right"
+    "menu main main main footer";
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+} */
+/* 
 .hidden-word {
   letter-spacing: 10px;
   border: solid 1px;
@@ -20,16 +158,20 @@ body {
   padding-left: 9px;
   height: fit-content;
   margin: 6px;
-  justify-content: center;
+  justify-content: left;
+  padding-bottom: 4px;
+  /* font-family: "WitchFont", sans-serif; 
 }
 .greeting {
   grid-area: header;
+  padding-bottom: 150px;
 }
-
-.hidden-word,
-.guess {
-  grid-area: main;
-  grid-row: initial;
+h1 {
+  font-family: "MysteryFont", sans-serif;
+  font-size: 50px;
+}
+.hidden-word {
+  grid-area: n;
 }
 .logout {
   grid-area: footer;
@@ -45,10 +187,13 @@ body {
   height: 800px;
   display: grid;
   grid-template-areas:
-    "header header header header header header"
-    "menu menu main main main right"
-    "menu menu main main main footer"
-    "menu menu main main main footer";
+    "header header header header header"
+    "n n n n n"
+    "guess guess hidden hidden right"
+    "menu main main main right"
+    "menu main main main right"
+    "menu main main main right"
+    "menu main main main footer";
   gap: 10px;
   padding: 10px;
   align-items: center;
@@ -68,8 +213,21 @@ body {
   width: fit-content;
   border-radius: 5%;
   height: fit-content;
+  grid-area: header;
+  align-items: center;
+  justify-content: initial;
 }
 
 .flash-used {
   grid-area: menu;
 }
+
+.hanged {
+  grid-area: main;
+  height: 700px;
+  width: 300px;
+} */
+
+/* .field {
+  width: 45px;
+} */

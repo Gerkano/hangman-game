@@ -6,21 +6,21 @@ class GameApp:
     def __init__(self):
         pass
 
-    def check_occurances(self, guess, word):
+    def check_occurances(self, guess: str, word: str) -> int:
         guess_occurances = list(word).count(guess)
         return guess_occurances
 
-    def hangman(self, guess, hidden_word, word):
+    def hangman(self, guess: str, hidden_word: str, word: str) -> str:
         hidden_word = list(hidden_word)
         for i in range(0, len(word)):
             if word[i] == guess:
                 hidden_word[i]=guess              
         return "".join(hidden_word)
 
-    def letters_left(self, word):
+    def letters_left(self, word: str) -> int:
         return len(word) - self.check_occurances()
 
-    def check_guess(self, guess, word):
+    def check_guess(self, guess: str, word: str) -> bool:
         if guess in word and guess != "":
             return True
         elif guess == "":
@@ -28,7 +28,7 @@ class GameApp:
         else:
             return False
 
-    def game_object(self, guess, hidden_word, word):
+    def game_object(self, guess: str, hidden_word: str, word: str) -> dict:
         word = word.upper()
         game_turn_data = {
             "guess":guess,
@@ -46,7 +46,7 @@ class WordGenerator:
     def __init__(self) -> None:
         self.r = RandomWords()
         
-    def generate_word(self):
+    def generate_word(self) -> str:
         while True:
             word = self.r.get_random_word()
             if len(word) > 7:
@@ -55,7 +55,7 @@ class WordGenerator:
                 break
         return word
 
-    def hide_word(self, word):
+    def hide_word(self, word: str) -> str:
         word = list(word)
         for i in range(0, len(word)):
             word[i] = "_"
@@ -64,7 +64,7 @@ class WordGenerator:
 class DataGenerator:
 
     @staticmethod
-    def add_collected_data(guess_letter, true_or_false, hidden_word, word, user_id):
+    def add_collected_data(guess_letter: str, true_or_false: int, hidden_word: str, word: str, user_id: int):
         game_state = GameState(
             guess=guess_letter, 
             true_or_false=true_or_false, 
@@ -76,10 +76,10 @@ class DataGenerator:
         db.session.commit()
         
     @staticmethod
-    def game_filter(user_id):
+    def game_filter(user_id: int) -> bool:
         return GameState.query.filter_by(user_id=user_id).all()[-1]
     @staticmethod    
-    def used_letter_check(user_id, guess_letter):
+    def used_letter_check(user_id: int, guess_letter: str) -> bool:
         list_of_moves = GameState.query.filter_by(user_id=user_id).all()
         for i in range(0, len(list_of_moves)):
             print(list_of_moves[i].guess)
@@ -90,7 +90,7 @@ class DataGenerator:
                 continue
         return False
     @staticmethod
-    def game_lost_check(user_id):
+    def game_lost_check(user_id: int) -> bool:
         list_of_games =  GameState.query.filter_by(user_id=user_id).all()
         print(list_of_games[0].true_or_false)
         counter = 0
@@ -108,7 +108,7 @@ class ArchiveGames:
     def __init__(self) -> None:
         pass
 
-    def archive_data(self, user_id, win_lose):
+    def archive_data(self, user_id: int, win_lose: bool):
         list_of_moves = GameState.query.filter_by(user_id=user_id).all()
         guess_list = []
         correct_guesses = 0
@@ -133,11 +133,9 @@ class ArchiveGames:
         db.session.add(archive)
         db.session.commit()
 
-    def clear_gamestate(self, user_id):
+    def clear_gamestate(self, user_id: int):
         list_of_moves = GameState.query.filter_by(user_id=user_id).all()
         for i in range(0, len(list_of_moves)):
             print(i)
             GameState.query.filter_by(user_id=user_id).delete()
-            # game_state = GameState.query.get(i)
-            # db.session.delete(game_state)
             db.session.commit()

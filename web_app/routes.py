@@ -3,8 +3,9 @@ from flask_login import login_user, login_required, logout_user, current_user
 from web_app.hangman import GameApp, WordGenerator, DataGenerator, ArchiveGames
 from web_app.models import User, GameState
 from web_app.forms import LoginForm, RegistrationForm, GameStart, StartNewGame
-from web_app import app, bcrypt, db
+from web_app import app, bcrypt, db, hangman_image
 import time
+import os
 
 @app.route('/')
 def home():
@@ -29,7 +30,7 @@ def dashboard():
     word = word_class.generate_word().upper()
     hangman = GameApp()
     data_colector = DataGenerator()
-
+    pic = os.path.join(app.config['UPLOAD_FOLDER'], 'hangman_0001_Background.png')
     if len(GameState.query.filter_by(user_id=current_user.id).all())==0:
         hidden_word = word_class.hide_word(word)
         data_colector.add_collected_data(
@@ -66,8 +67,8 @@ def dashboard():
             hidden_word, 
             word, 
             current_user.id)
-        return render_template('dashboard.html', username=current_user.username, hangman=hidden_word, form=form)
-    return render_template('dashboard.html', username=current_user.username, hangman=hidden_word, form=form)
+        return render_template('dashboard.html', username=current_user.username.upper(), hangman=hidden_word, form=form)
+    return render_template('dashboard.html', username=current_user.username.upper(), hangman=hidden_word, form=form) #, image=pic
 
 
 @app.route('/menu', methods=["GET", "POST"])

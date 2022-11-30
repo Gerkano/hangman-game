@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <div class="greeting">
-        <h1>Hello, {{username}}, you are logged in</h1>
+        <h1>Hello  {{username}}  you are logged in</h1>
       </div>
       <div class="hidden-word">
         <h2 id="hidden_word">{{hangman}}</h2>
@@ -25,9 +25,25 @@
         <div>{{ message }}</div>
         {% endfor %} {% endif %} {% endwith %}
       </div>
-      <div class="logout">
-        <a href="{{url_for('logout')}}">Logout</a>
-      </div>
+
+      <div class="border-main">
+
+      <div id="border">
+      <img class="outline" src="../static/images/kindpng_1078214.png" alt="">
+      <img class="smoke" src="../static/images/hangman_0000_BG.png" alt="">
+      <img class="plank3" src="../static/images/hangman_0000s_0008_PLANK-3.png" alt="">
+      <img class = plank2 src="../static/images/hangman_0000s_0009_PLANK-2.png" alt="">
+      <img class = "plank1" src="../static/images/hangman_0000s_0007_PLANK-1.png" alt="">
+      <!-- <img class = plank2 src="../static/images/hangman_0000s_0009_PLANK-2.png" alt=""> -->
+    </div> 
+
     </div>
+
+  <div class="logout">
+    <a href="{{url_for('logout')}}">Logout</a>
+  </div>
+  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../static/app.js"></script>
   </body>
 </html>
