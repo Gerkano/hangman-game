@@ -1,3 +1,4 @@
+from typing import Optional
 from random_word import RandomWords
 from web_app.models import GameState, ArchiveData
 from web_app import db
@@ -21,10 +22,8 @@ class GameApp:
         return len(word) - self.check_occurances()
 
     def check_guess(self, guess: str, word: str) -> bool:
-        if guess in word and guess != "":
+        if guess in word:
             return True
-        elif guess == "":
-            return None
         else:
             return False
 
@@ -64,10 +63,10 @@ class WordGenerator:
 class DataGenerator:
 
     @staticmethod
-    def add_collected_data(guess_letter: str, true_or_false: int, hidden_word: str, word: str, user_id: int):
+    def add_collected_data(guess_letter: str, correct_guess: int, hidden_word: str, word: str, user_id: int):
         game_state = GameState(
             guess=guess_letter, 
-            true_or_false=true_or_false, 
+            correct_guess=correct_guess, 
             hidden_word=hidden_word, 
             word=word, 
             user_id=user_id
@@ -92,11 +91,11 @@ class DataGenerator:
     @staticmethod
     def game_lost_check(user_id: int) -> bool:
         list_of_games =  GameState.query.filter_by(user_id=user_id).all()
-        print(list_of_games[0].true_or_false)
+        print(list_of_games[0].correct_guess)
         counter = 0
         if len(list_of_games) > 1:
             for i in range(1, len(list_of_games)):
-                if list_of_games[i].true_or_false == "0":
+                if list_of_games[i].correct_guess == "0":
                     counter += 1
         if counter >= 10:
             return False
@@ -116,9 +115,9 @@ class ArchiveGames:
         word = list_of_moves[1].word
         for i in range(1, len(list_of_moves)):
             guess_list.append(list_of_moves[i].guess)
-            if list_of_moves[i].true_or_false == "1":
+            if list_of_moves[i].correct_guess == "1":
                 correct_guesses += 1
-            elif list_of_moves[i].true_or_false == "0":
+            elif list_of_moves[i].correct_guess == "0":
                 incorrect_guesses += 1
             else:
                 continue

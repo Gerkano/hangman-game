@@ -10,40 +10,286 @@
   <body>
     <div class="container">
       <div class="greeting">
-        <h1>Hello  {{username}}  you are logged in</h1>
+        <h1 id="greeting">Hello {{username}} you are logged in</h1>
+      </div>
+
+      <div class="guess">
+
+      </div>
+
+
+      <div class="alphabet-main">
+        <div class="alphabet">
+          <form id="alphabet" method="POST" action="">
+          <button name="letter" value="A" id="A_letter">
+            <img
+              id="A_pic"
+              src="../static/images/alphabet_letters/A.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="B" id="B_letter">
+            <img
+              id="B_pic"
+              src="../static/images/alphabet_letters/B.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="C" id="C_letter">
+            <img
+              id="C_pic"
+              src="../static/images/alphabet_letters/C.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="D" id="D_letter">
+            <img
+              id="D_pic"
+              src="../static/images/alphabet_letters/D.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="E" id="E_letter">
+            <img
+              id="E_pic"
+              src="../static/images/alphabet_letters/E.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="F" id="F_letter">
+            <img
+              id="F_pic"
+              src="../static/images/alphabet_letters/F.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="G" id="G_letter">
+            <img
+              id="G_pic"
+              src="../static/images/alphabet_letters/G.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="H" id="H_letter">
+            <img
+              id="H_pic"
+              src="../static/images/alphabet_letters/H.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="I" id="I_letter">
+            <img
+              id="I_pic"
+              src="../static/images/alphabet_letters/I.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="J" id="J_letter">
+            <img
+              id="J_pic"
+              src="../static/images/alphabet_letters/J.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="K" id="K_letter">
+            <img
+              id="K_pic"
+              src="../static/images/alphabet_letters/K.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="L" id="L_letter">
+            <img
+              id="L_pic"
+              src="../static/images/alphabet_letters/L.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="M" id="M_letter">
+            <img
+              id="M_pic"
+              src="../static/images/alphabet_letters/M.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="N" id="N_letter">
+            <img
+              id="N_pic"
+              src="../static/images/alphabet_letters/N.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="O" id="O_letter">
+            <img
+              id="O_pic"
+              src="../static/images/alphabet_letters/O.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="P" id="P_letter">
+            <img
+              id="P_pic"
+              src="../static/images/alphabet_letters/P.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="Q" id="Q_letter">
+            <img
+              id="Q_pic"
+              src="../static/images/alphabet_letters/Q.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="R" id="R_letter">
+            <img
+              id="R_pic"
+              src="../static/images/alphabet_letters/R.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="S" id="S_letter">
+            <img
+              id="S_pic"
+              src="../static/images/alphabet_letters/S.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="T" id="T_letter">
+            <img
+              id="T_pic"
+              src="../static/images/alphabet_letters/T.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="U" id="U_letter">
+            <img
+              id="U_pic"
+              src="../static/images/alphabet_letters/U.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="V" id="V_letter">
+            <img
+              id="V_pic"
+              src="../static/images/alphabet_letters/V.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="W" id="W_letter">
+            <img
+              id="W_pic"
+              src="../static/images/alphabet_letters/W.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="X" id="X_letter">
+            <img
+              id="X_pic"
+              src="../static/images/alphabet_letters/X.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="Y" id="Y_letter">
+            <img
+              id="Y_pic"
+              src="../static/images/alphabet_letters/Y.jpg"
+              alt=""
+            />
+          </button>
+          <button name="letter" value="Z" id="Z_letter">
+            <img
+              id="Z_pic"
+              src="../static/images/alphabet_letters/Z.jpg"
+              alt=""
+            />
+          </button>
+        </div>
       </div>
       <div class="hidden-word">
         <h2 id="hidden_word">{{hangman}}</h2>
       </div>
-      <div class="guess">
-        <form method="POST" action="" id="letter-input">
-          {{ form.hidden_tag() }} {{ form.guess_letter }} {{ form.submit }}
-      </div>
-      <div class="flash-used">
+      <div class="flash-message">
         {% with messages = get_flashed_messages(with_categories=true) %} {% if
         messages %} {% for category, message in messages %}
-        <div>{{ message }}</div>
+        <div class="message">{{ message }}</div>
         {% endfor %} {% endif %} {% endwith %}
       </div>
+      <div id="border-main">
+        <div id="border">
+          <img
+            class="smoke"
+            src="../static/images/hangman_0000_BG.png"
+            alt=""
+          />
+          <img
+            class="outline"
+            src="../static/images/kindpng_1078214.png"
+            alt=""
+          />
+          <img
+            class="plank3" id="3"
+            src="../static/images/hangman_0000s_0008_PLANK-3.png"
+            alt=""
+          />
+          <img
+            class="plank2" id="2"
+            src="../static/images/hangman_0000s_0009_PLANK-2.png"
+            alt=""
+          />
+          <img
+            class="plank1" id="1"
+            src="../static/images/hangman_0000s_0007_PLANK-1.png"
+            alt=""
+          />
+          <img
+            class="lleg" id="10"
+            src="../static/images/hangman_0000s_0006_LEG-Left.png"
+            alt=""
+          />
+          <img
+            class="rleg" id="9"
+            src="../static/images/hangman_0000s_0005_LEG-Right.png"
+            alt=""
+          />
+          <img
+            class="larm" id="8"
+            src="../static/images/hangman_0000s_0004_ARM-LEFT.png"
+            alt=""
+          />
+          <img
+            class="body" id="6"
+            src="../static/images/hangman_0000s_0003_BODY.png"
+            alt=""
+          />
+          <img
+            class="rope" id="4"
+            src="../static/images/hangman_0000s_0001_Noose.png"
+            alt=""
+          />
+          <img
+            class="head" id= "5"
+            src="../static/images/hangman_0000s_0000_HEAD.png"
+            alt=""
+          />
+          <img
+            class="rarm" id="7"
+            src="../static/images/hangman_0000s_0002_ARM-Right.png"
+            alt=""
+          />
+        </form>
+        </div>
+      </div>
 
-      <div class="border-main">
-
-      <div id="border">
-      <img class="outline" src="../static/images/kindpng_1078214.png" alt="">
-      <img class="smoke" src="../static/images/hangman_0000_BG.png" alt="">
-      <img class="plank3" src="../static/images/hangman_0000s_0008_PLANK-3.png" alt="">
-      <img class = plank2 src="../static/images/hangman_0000s_0009_PLANK-2.png" alt="">
-      <img class = "plank1" src="../static/images/hangman_0000s_0007_PLANK-1.png" alt="">
-      <!-- <img class = plank2 src="../static/images/hangman_0000s_0009_PLANK-2.png" alt=""> -->
-    </div> 
-
+      <div class="logout">
+        <a href="{{url_for('logout')}}">Logout</a>
+      </div>
     </div>
-
-  <div class="logout">
-    <a href="{{url_for('logout')}}">Logout</a>
-  </div>
-  </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+      integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="../static/app.js"></script>
   </body>
 </html>

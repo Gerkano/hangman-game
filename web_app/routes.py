@@ -1,4 +1,4 @@
-from flask import render_template, url_for, redirect, flash
+from flask import render_template, request, url_for, redirect, flash, jsonify
 from flask_login import login_user, login_required, logout_user, current_user
 from web_app.hangman import GameApp, WordGenerator, DataGenerator, ArchiveGames
 from web_app.models import User, GameState
@@ -30,9 +30,8 @@ def dashboard():
     word = word_class.generate_word().upper()
     hangman = GameApp()
     data_colector = DataGenerator()
-    pic = os.path.join(app.config['UPLOAD_FOLDER'], 'hangman_0001_Background.png')
+    hidden_word = word_class.hide_word(word)
     if len(GameState.query.filter_by(user_id=current_user.id).all())==0:
-        hidden_word = word_class.hide_word(word)
         data_colector.add_collected_data(
             "None", 
             "None", 
@@ -49,27 +48,37 @@ def dashboard():
     else:
         hidden_word = data_colector.game_filter(current_user.id).hidden_word
         print(hidden_word)
+    alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    if request.method == 'POST':
+        for i in alphabet:
+            if request.form["letter"] == i:
+                word = data_colector.game_filter(current_user.id).word
+                guess_letter = i
+                if data_colector.used_letter_check(current_user.id, guess_letter):
+                    flash(f' {guess_letter}  already ussed')
+                    continue
+                previous_hidden_word = data_colector.game_filter(current_user.id).hidden_word
+                print(previous_hidden_word)
+                game_checker = hangman.game_object(guess_letter, previous_hidden_word, word)
+                hidden_word = game_checker["hidden_word"]
+                data_colector.add_collected_data(
+                    guess_letter, 
+                    game_checker["guessXV"], 
+                    hidden_word, 
+                    word, 
+                    current_user.id)
 
-    if form.validate_on_submit():
-        print(GameState.query.filter_by(user_id=current_user.id).all())
-        word = data_colector.game_filter(current_user.id).word
-        guess_letter = form.guess_letter.data.upper()
-        if data_colector.used_letter_check(current_user.id, guess_letter):
-            flash(f'Letter already ussed: {guess_letter}!')
-            return redirect(url_for("dashboard"))
-        previous_hidden_word = data_colector.game_filter(current_user.id).hidden_word
-        print(previous_hidden_word)
-        game_checker = hangman.game_object(guess_letter, previous_hidden_word, word)
-        hidden_word = game_checker["hidden_word"]
-        data_colector.add_collected_data(
-            guess_letter, 
-            game_checker["guessXV"], 
-            hidden_word, 
-            word, 
-            current_user.id)
-        return render_template('dashboard.html', username=current_user.username.upper(), hangman=hidden_word, form=form)
-    return render_template('dashboard.html', username=current_user.username.upper(), hangman=hidden_word, form=form) #, image=pic
+                # return render_template('dashboard.html', username=current_user.username.upper(), hangman=hidden_word)
+    return render_template('dashboard.html', username=current_user.username.upper(), hangman=hidden_word) #, image=pic , form=form
 
+@app.route('/fetch', methods=['GET', 'POST'])
+@login_required
+def fetch():
+    used_letters = [i.guess for i in GameState.query.filter_by(user_id=current_user.id).all()]
+    wrong_guess_count = len([i.correct_guess for i in GameState.query.filter_by(user_id=current_user.id).all() if i.correct_guess == "0"])
+    last_guess = GameState.query.filter_by(user_id=current_user.id).all()[-1].correct_guess
+    print(wrong_guess_count)
+    return jsonify(used_letters[1:], wrong_guess_count, last_guess)
 
 @app.route('/menu', methods=["GET", "POST"])
 @login_required
@@ -78,7 +87,7 @@ def menu():
     archive = ArchiveGames()
     data_colector = DataGenerator()
     if form.validate_on_submit():
-        flash(f'New game started!')
+        flash(f'New game started')
         try:
             archive.archive_data(current_user.id, f"{data_colector.game_lost_check(current_user.id)}")
             archive.clear_gamestate(current_user.id)

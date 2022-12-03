@@ -6,30 +6,37 @@
   font-family: "WitchFont";
   src: url(fonts/FunnyWitchesDemoRegular.ttf);
 }
-
+* {
+  margin: 0 auto;
+}
 html {
   background-color: #f8eeee;
+}
+#border-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
 }
 #border {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  /* width: min-content; */
+  width: 1281px;
+  height: 813px;
 }
 
 .outline {
   width: 1281px;
   height: 813px;
   position: absolute;
-  overflow: hidden;
 }
 
 .smoke {
   width: 1281px;
   height: 813px;
-  /* position: absolute; */
+  position: absolute;
   border: 12px solid;
 }
 
@@ -37,43 +44,324 @@ html {
   width: 139.6px;
   height: 770px;
   position: absolute;
-  left: 37%;
-  bottom: 4.3%;
+  left: 23.8%;
+  bottom: 3%;
+  visibility: hidden;
 }
 
 .plank2 {
   width: 457px;
   height: 396px;
   position: absolute;
-  top: 2.2%;
-  left: 35.4%;
+  top: 0.7%;
+  left: 20.5%;
+  visibility: hidden;
 }
 .plank3 {
   width: 264px;
   height: 410px;
   position: absolute;
+  left: 20.1%;
+  bottom: 19.4%;
+  visibility: hidden;
+}
+.rope {
+  width: 173.3px;
+  height: 309.3px;
+  position: absolute;
+  top: 18.5%;
+  left: 41%;
+  visibility: hidden;
 }
 
+.head {
+  width: 343.3px;
+  height: 239.3px;
+  position: absolute;
+  left: 47.6%;
+  top: 27.2%;
+  visibility: hidden;
+}
+
+.body {
+  width: 336.3px;
+  height: 496px;
+  position: absolute;
+  left: 39%;
+  top: 17%;
+  visibility: hidden;
+}
+.rarm {
+  width: 104px;
+  height: 224px;
+  position: absolute;
+  bottom: 19.5%;
+  left: 40.2%;
+  visibility: hidden;
+}
+.larm {
+  width: 104.3px;
+  height: 189.3px;
+  position: absolute;
+  bottom: 20.8%;
+  left: 50.8%;
+  visibility: hidden;
+}
+.rleg {
+  width: 80.3px;
+  height: 148.3px;
+  position: absolute;
+  bottom: 7%;
+  left: 46.5%;
+  visibility: hidden;
+}
+.lleg {
+  width: 86.6px;
+  height: 157.3px;
+  position: absolute;
+  bottom: 9%;
+  left: 49.5%;
+  visibility: hidden;
+}
+
+#alphabet-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 5%; */
+}
+
+.alphabet {
+  position: relative;
+  display: flex;
+  border: none;
+  width: 1400px;
+  margin-top: 100px;
+}
+
+#A_letter {
+  border: none;
+  visibility: visible;
+}
+#A_pic {
+  border-radius: 3%;
+  transform: rotate(5deg);
+}
+#B_letter {
+  border: none;
+}
+#B_pic {
+  border-radius: 3%;
+  transform: rotate(-5deg);
+}
+#C_letter {
+  border: none;
+}
+#C_pic {
+  border-radius: 3%;
+  transform: rotate(1deg);
+}
+#D_letter {
+  border: none;
+}
+#D_pic {
+  border-radius: 3%;
+  transform: rotate(2deg);
+}
+#E_letter {
+  border: none;
+}
+#E_pic {
+  border-radius: 3%;
+  transform: rotate(-4deg);
+}
+#F_letter {
+  border: none;
+}
+#F_pic {
+  border-radius: 3%;
+  transform: rotate(0deg);
+}
+#G_letter {
+  border: none;
+}
+#G_pic {
+  border-radius: 3%;
+  transform: rotate(4deg);
+}
+#H_letter {
+  border: none;
+}
+#H_pic {
+  border-radius: 3%;
+  transform: rotate(-2deg);
+}
+#I_letter {
+  border: none;
+}
+#I_pic {
+  border-radius: 3%;
+  transform: rotate(4deg);
+}
+#J_letter {
+  border: none;
+}
+#J_pic {
+  border-radius: 3%;
+  transform: rotate(0deg);
+}
+#K_letter {
+  border: none;
+}
+#K_pic {
+  border-radius: 3%;
+  transform: rotate(-5deg);
+}
+#L_letter {
+  border: none;
+}
+#L_pic {
+  border-radius: 3%;
+  transform: rotate(2deg);
+}
+#M_letter {
+  border: none;
+}
+#M_pic {
+  border-radius: 3%;
+  transform: rotate(0deg);
+}
+#N_letter {
+  border: none;
+}
+#N_pic {
+  border-radius: 3%;
+  transform: rotate(-1deg);
+}
+#O_letter {
+  border: none;
+}
+#O_pic {
+  border-radius: 3%;
+  transform: rotate(1deg);
+}
+#P_letter {
+  border: none;
+}
+#P_pic {
+  border-radius: 3%;
+  transform: rotate(6deg);
+}
+#Q_letter {
+  border: none;
+}
+#Q_pic {
+  border-radius: 3%;
+  transform: rotate(-3deg);
+}
+#R_letter {
+  border: none;
+}
+#R_pic {
+  border-radius: 3%;
+  transform: rotate(0deg);
+}
+#S_letter {
+  border: none;
+}
+#S_pic {
+  border-radius: 3%;
+  transform: rotate(3deg);
+}
+#T_letter {
+  border: none;
+}
+#T_pic {
+  border-radius: 3%;
+  transform: rotate(-3deg);
+}
+#U_letter {
+  border: none;
+}
+#U_pic {
+  border-radius: 3%;
+  transform: rotate(0deg);
+}
+#V_letter {
+  border: none;
+}
+#V_pic {
+  border-radius: 3%;
+  transform: rotate(3deg);
+}
+#W_letter {
+  border: none;
+}
+#W_pic {
+  border-radius: 3%;
+  transform: rotate(-2deg);
+}
+#X_letter {
+  border: none;
+}
+#X_pic {
+  border-radius: 3%;
+  transform: rotate(4deg);
+}
+#Y_letter {
+  border: none;
+}
+#Y_pic {
+  border-radius: 3%;
+  transform: rotate(-4deg);
+}
+#Z_letter {
+  border: none;
+  /* visibility: hidden; */
+}
+#Z_pic {
+  border-radius: 3%;
+  transform: rotate(0deg);
+}
 .hidden-word {
   letter-spacing: 15px;
   border: solid 1px;
   width: fit-content;
   height: fit-content;
   border-radius: 5%;
-  justify-content: left;
-  font-family: "MysteryFont", sans-serif;
-  background-color: black;
-  color: rgb(223, 190, 43);
+  margin-top: 1%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 10mm;
-  position: absolute;
   top: 10%;
   left: 50%;
   padding: 0%;
 }
-h2 {
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#greeting {
+  font-family: "WitchFont", sans-serif;
+  letter-spacing: 10px;
+  text-shadow: slategray;
+  font-size: 70px;
+}
+.flash-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message {
+  font-family: "WitchFont", sans-serif;
+  letter-spacing: 5px;
+  text-shadow: slategray;
+  font-size: 35px;
+}
+/*h2 {
   margin: 0%;
   padding: 0%;
-  /* position: absolute; */
+  position: absolute;
 }
 .guess {
   border: 2px solid;
@@ -93,7 +381,7 @@ h1 {
   font-family: "WitchFont";
   position: relative;
   left: 40%;
-}
+} */
 /* background-color: #998c8c; */
 
 /* html {

@@ -48,8 +48,8 @@ class RegistrationForm(FlaskForm):
                 "That email already exists. Please chose a different one.")
 
 class GameStart(FlaskForm):
-    guess_letter = StringField(validators=[InputRequired(), Length(
-        min=1, max=1)], render_kw={"placeholder": "Guess"})
+    guess_word = StringField(validators=[InputRequired(), Length(
+        min=1, max=8)], render_kw={"placeholder": "Guess the word"})
     submit = SubmitField("Guess")
 
 class StartNewGame(FlaskForm):

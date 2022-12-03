@@ -11,7 +11,7 @@ class User(db.Model, UserMixin):
 class GameState(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     guess = db.Column(db.String(40), nullable=False)
-    true_or_false = db.Column(db.String(40), nullable=False)
+    correct_guess = db.Column(db.String(40), nullable=False)
     hidden_word = db.Column(db.String(40), nullable=False)
     word = db.Column(db.String(40), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
