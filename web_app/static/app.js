@@ -1,25 +1,4 @@
-// gsap.to(".guess", { y: 100, duration: 1 });
-// gsap.from(".plank2", { y: "-100%", duration: 2, ease: "bounce" });
-// gsap.from(".plank1", { y: "-100%", duration: 2, ease: "bounce" });
-// gsap.from(".rope", { y: "-100%", duration: 2, ease: "bounce" });
-// gsap.from(".plank3", { y: "-100%", duration: 2, ease: "bounce" });
-// gsap.from(".head", { x: "300%", rotation: 1000, duration: 2, ease: "step" });
-// gsap.from(".body", { y: "-100%", duration: 2, ease: "step" });
-// gsap.from(".larm", { y: "100%", duration: 2, ease: "step" });
-// gsap.from(".rarm", { y: "-100%", duration: 2, ease: "step" });
-// gsap.from(".rleg", { x: "100%", duration: 2, ease: "circ.out" });
-// gsap.from(".lleg", { x: "-100%", duration: 2, ease: "step" });
-
-// guess_submit.addEventListener("click", function (e) {
-//   gsap.from(".head", { x: "300%", rotation: 1000, duration: 2, ease: "step" });
-//   guess_submit.style.display = "none";
-// });
 const guess_submit = document.getElementsByName("letter");
-// let hidden_word = document.getElementById("hidden_word").textContent;
-// function getOccurrence() {
-//   hidden_word.split("");
-// }
-// console.log(getOccurrence());
 console.log(guess_submit[2].value);
 
 function usedLetters() {
@@ -65,9 +44,8 @@ function hangMan() {
             });
             if (data[1] == 10) {
               setTimeout(() => {
-                alert("You've DIEDED ;/");
                 location.href = "/menu";
-              }, 1000);
+              }, 4000);
             }
           } else {
             gsap.from(body_part, {

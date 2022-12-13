@@ -1,0 +1,899 @@
+2022-12-13 17:26:10,094 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:11,954 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:11,955 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:26:11,955 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '__________', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:12,921 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:13,728 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:13,729 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:26:13,729 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': False, 'hidden_word': '__________', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:16,172 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:16,173 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:26:16,173 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '__________', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:18,859 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:18,859 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:26:18,859 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': True, 'hidden_word': '_______G__', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:20,879 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:20,879 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:26:20,880 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': False, 'hidden_word': '_______G__', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:23,758 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:23,759 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:26:23,759 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': True, 'hidden_word': '__I__I_G__', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:26,271 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:26,272 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:26:26,272 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': '__I__I_G__', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:31,991 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:31,992 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:26:31,992 - gameLogger - DEBUG - Game state sent: {'guess': 'O', 'correct_guess': False, 'hidden_word': '__I__I_G__', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:34,798 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:34,799 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:26:34,799 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '__I__I_G__', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:37,454 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:37,455 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:26:37,455 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '__I__I_G__', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:40,060 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:40,061 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:26:40,061 - gameLogger - DEBUG - Game state sent: {'guess': 'Y', 'correct_guess': True, 'hidden_word': '__I__I_G_Y', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:42,218 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:42,219 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:26:42,219 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '__I__I_G_Y', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:44,608 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:44,609 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:26:44,609 - gameLogger - DEBUG - Game state sent: {'guess': 'K', 'correct_guess': True, 'hidden_word': '__I_KI_G_Y', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:48,227 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:48,228 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:26:48,228 - gameLogger - DEBUG - Game state sent: {'guess': 'L', 'correct_guess': True, 'hidden_word': '__I_KI_GLY', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:50,549 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:50,549 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:26:50,549 - gameLogger - DEBUG - Game state sent: {'guess': 'M', 'correct_guess': True, 'hidden_word': '_MI_KI_GLY', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:52,871 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:26:52,872 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:26:52,872 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': False, 'hidden_word': '_MI_KI_GLY', 'word': 'SMIRKINGLY'}
+2022-12-13 17:26:56,664 - gameLogger - INFO - There was a win
+2022-12-13 17:28:32,029 - gameLogger - INFO - New game
+2022-12-13 17:28:35,127 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:28:35,128 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:28:35,128 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': False, 'hidden_word': '_______', 'word': 'POMADED'}
+2022-12-13 17:29:23,574 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:29:23,575 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:29:23,575 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': True, 'hidden_word': '_____E_', 'word': 'POMADED'}
+2022-12-13 17:29:41,609 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:29:41,611 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:29:41,611 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': '_____E_', 'word': 'POMADED'}
+2022-12-13 17:29:47,208 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:29:47,209 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:29:47,209 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '_____E_', 'word': 'POMADED'}
+2022-12-13 17:30:35,696 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:30:35,698 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:30:35,699 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '_____E_', 'word': 'POMADED'}
+2022-12-13 17:30:42,173 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:30:42,174 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:30:42,174 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': False, 'hidden_word': '_____E_', 'word': 'POMADED'}
+2022-12-13 17:30:47,780 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:30:47,781 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:30:47,781 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '_____E_', 'word': 'POMADED'}
+2022-12-13 17:30:51,377 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:30:51,378 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:30:51,378 - gameLogger - DEBUG - Game state sent: {'guess': 'S', 'correct_guess': False, 'hidden_word': '_____E_', 'word': 'POMADED'}
+2022-12-13 17:30:54,591 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:30:54,592 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:30:54,592 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': True, 'hidden_word': '____DED', 'word': 'POMADED'}
+2022-12-13 17:30:58,068 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:30:58,068 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:30:58,069 - gameLogger - DEBUG - Game state sent: {'guess': 'Q', 'correct_guess': False, 'hidden_word': '____DED', 'word': 'POMADED'}
+2022-12-13 17:31:01,611 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:31:01,612 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:31:01,612 - gameLogger - DEBUG - Game state sent: {'guess': 'R', 'correct_guess': False, 'hidden_word': '____DED', 'word': 'POMADED'}
+2022-12-13 17:31:04,910 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:31:04,911 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:31:04,911 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': False, 'hidden_word': '____DED', 'word': 'POMADED'}
+2022-12-13 17:31:07,894 - gameLogger - INFO - There was a win
+2022-12-13 17:31:13,914 - gameLogger - INFO - New game
+2022-12-13 17:31:16,046 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:31:16,046 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:31:16,046 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '_______________', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:31:18,596 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:31:18,596 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:31:18,597 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': True, 'hidden_word': '___E___________', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:31:20,853 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:31:20,854 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:31:20,854 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '___E___________', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:31:23,423 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:31:23,424 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:31:23,424 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': '___E___________', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:31:25,967 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:31:25,967 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:31:25,968 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': True, 'hidden_word': '___E________H__', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:31:28,187 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:31:28,188 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:31:28,188 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': True, 'hidden_word': '___E____I___H__', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:33:05,410 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:33:05,411 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:33:05,412 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': True, 'hidden_word': '___E____I__CH__', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:33:09,269 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:33:09,270 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:33:09,271 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': True, 'hidden_word': '__TE__T_I__CH__', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:33:11,397 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:33:11,398 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:33:11,398 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '__TE__T_I__CH__', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:33:16,525 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:33:20,481 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:33:20,482 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:33:20,482 - gameLogger - DEBUG - Game state sent: {'guess': 'S', 'correct_guess': False, 'hidden_word': '__TE__T_I__CH__', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:33:27,028 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:33:27,029 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:33:27,029 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '__TE__T_I__CH__', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:33:29,595 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:33:29,596 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:33:29,596 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '__TE__T_I__CH__', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:33:32,699 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:33:32,699 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:33:32,699 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': '__TE__T_I__CH__', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:33:35,083 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:33:35,084 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:33:35,084 - gameLogger - DEBUG - Game state sent: {'guess': 'K', 'correct_guess': False, 'hidden_word': '__TE__T_I__CH__', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:33:37,491 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:33:37,491 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:33:37,492 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': '__TE__T_I__CH__', 'word': 'ANTEPATRIARCHAL'}
+2022-12-13 17:34:46,916 - gameLogger - INFO - New game
+2022-12-13 17:35:25,934 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:35:25,936 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:35:25,936 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': True, 'hidden_word': '______D', 'word': 'BARNARD'}
+2022-12-13 17:35:30,475 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:35:30,475 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:35:30,476 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '______D', 'word': 'BARNARD'}
+2022-12-13 17:35:39,028 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:35:39,029 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:35:39,029 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': False, 'hidden_word': '______D', 'word': 'BARNARD'}
+2022-12-13 17:35:42,047 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:35:42,048 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:35:42,048 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': False, 'hidden_word': '______D', 'word': 'BARNARD'}
+2022-12-13 17:35:45,391 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:35:45,392 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:35:45,392 - gameLogger - DEBUG - Game state sent: {'guess': 'S', 'correct_guess': False, 'hidden_word': '______D', 'word': 'BARNARD'}
+2022-12-13 17:35:51,539 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:35:51,540 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:35:51,540 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': '______D', 'word': 'BARNARD'}
+2022-12-13 17:35:53,669 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:35:53,670 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:35:53,670 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': False, 'hidden_word': '______D', 'word': 'BARNARD'}
+2022-12-13 17:35:56,678 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:35:56,678 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:35:56,678 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': False, 'hidden_word': '______D', 'word': 'BARNARD'}
+2022-12-13 17:35:59,579 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:35:59,579 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:35:59,580 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': '______D', 'word': 'BARNARD'}
+2022-12-13 17:36:02,211 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:36:02,212 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:36:02,212 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '______D', 'word': 'BARNARD'}
+2022-12-13 17:36:05,626 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:36:05,627 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:36:05,627 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '______D', 'word': 'BARNARD'}
+2022-12-13 17:36:49,142 - gameLogger - INFO - New game
+2022-12-13 17:36:52,467 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:36:52,469 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:36:52,470 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '____', 'word': 'IMMI'}
+2022-12-13 17:36:59,290 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:36:59,291 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:36:59,291 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': False, 'hidden_word': '____', 'word': 'IMMI'}
+2022-12-13 17:37:02,289 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:02,290 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:37:02,291 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '____', 'word': 'IMMI'}
+2022-12-13 17:37:04,632 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:04,679 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:37:04,679 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': '____', 'word': 'IMMI'}
+2022-12-13 17:37:06,859 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:06,861 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:37:06,861 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': False, 'hidden_word': '____', 'word': 'IMMI'}
+2022-12-13 17:37:09,713 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:09,714 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:37:09,714 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': True, 'hidden_word': 'I__I', 'word': 'IMMI'}
+2022-12-13 17:37:12,516 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:12,517 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:37:12,517 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': 'I__I', 'word': 'IMMI'}
+2022-12-13 17:37:16,028 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:16,029 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:37:16,029 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': 'I__I', 'word': 'IMMI'}
+2022-12-13 17:37:18,868 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:18,869 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:37:18,869 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': 'I__I', 'word': 'IMMI'}
+2022-12-13 17:37:21,581 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:21,582 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:37:21,583 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': 'I__I', 'word': 'IMMI'}
+2022-12-13 17:37:27,446 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:29,507 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:29,509 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:37:29,509 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': False, 'hidden_word': 'I__I', 'word': 'IMMI'}
+2022-12-13 17:37:30,799 - gameLogger - INFO - There was a win
+2022-12-13 17:37:32,803 - gameLogger - INFO - New game
+2022-12-13 17:37:34,797 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:34,798 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:37:34,798 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': False, 'hidden_word': '____', 'word': 'MORA'}
+2022-12-13 17:37:37,438 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:37,440 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:37:37,440 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '____', 'word': 'MORA'}
+2022-12-13 17:37:40,263 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:40,264 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:37:40,265 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': '____', 'word': 'MORA'}
+2022-12-13 17:37:42,787 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:37:42,788 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:37:42,788 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': False, 'hidden_word': '____', 'word': 'MORA'}
+2022-12-13 17:38:47,826 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:38:47,828 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:38:47,831 - gameLogger - DEBUG - Game state sent: {'guess': 'Q', 'correct_guess': False, 'hidden_word': '____', 'word': 'MORA'}
+2022-12-13 17:38:51,617 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:38:51,618 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:38:51,618 - gameLogger - DEBUG - Game state sent: {'guess': 'P', 'correct_guess': False, 'hidden_word': '____', 'word': 'MORA'}
+2022-12-13 17:38:55,050 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:38:55,051 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:38:55,051 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': False, 'hidden_word': '____', 'word': 'MORA'}
+2022-12-13 17:38:58,550 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:38:58,552 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:38:58,552 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': False, 'hidden_word': '____', 'word': 'MORA'}
+2022-12-13 17:39:01,434 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:01,435 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:39:01,435 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '____', 'word': 'MORA'}
+2022-12-13 17:39:04,518 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:04,518 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:39:04,519 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '____', 'word': 'MORA'}
+2022-12-13 17:39:21,560 - gameLogger - INFO - New game
+2022-12-13 17:39:24,765 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:24,767 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:39:24,767 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '____________', 'word': 'SKITTISHNESS'}
+2022-12-13 17:39:29,696 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:29,697 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:39:29,698 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': True, 'hidden_word': '_________E__', 'word': 'SKITTISHNESS'}
+2022-12-13 17:39:33,091 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:33,091 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:39:33,091 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '_________E__', 'word': 'SKITTISHNESS'}
+2022-12-13 17:39:36,962 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:36,963 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:39:36,963 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': '_________E__', 'word': 'SKITTISHNESS'}
+2022-12-13 17:39:40,242 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:40,243 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:39:40,243 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': True, 'hidden_word': '_______H_E__', 'word': 'SKITTISHNESS'}
+2022-12-13 17:39:43,278 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:43,279 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:39:43,279 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': True, 'hidden_word': '__I__I_H_E__', 'word': 'SKITTISHNESS'}
+2022-12-13 17:39:46,183 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:46,186 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:39:46,186 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': '__I__I_H_E__', 'word': 'SKITTISHNESS'}
+2022-12-13 17:39:48,827 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:48,828 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:39:48,828 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '__I__I_H_E__', 'word': 'SKITTISHNESS'}
+2022-12-13 17:39:51,837 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:51,837 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:39:51,838 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': '__I__I_H_E__', 'word': 'SKITTISHNESS'}
+2022-12-13 17:39:53,916 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:53,917 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:39:53,917 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '__I__I_H_E__', 'word': 'SKITTISHNESS'}
+2022-12-13 17:39:56,547 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:56,548 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:39:56,548 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': True, 'hidden_word': '__ITTI_H_E__', 'word': 'SKITTISHNESS'}
+2022-12-13 17:39:59,118 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:39:59,121 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:39:59,121 - gameLogger - DEBUG - Game state sent: {'guess': 'S', 'correct_guess': True, 'hidden_word': 'S_ITTISH_ESS', 'word': 'SKITTISHNESS'}
+2022-12-13 17:40:01,755 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:40:01,756 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:40:01,756 - gameLogger - DEBUG - Game state sent: {'guess': 'R', 'correct_guess': False, 'hidden_word': 'S_ITTISH_ESS', 'word': 'SKITTISHNESS'}
+2022-12-13 17:40:04,411 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:40:04,411 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:40:04,412 - gameLogger - DEBUG - Game state sent: {'guess': 'P', 'correct_guess': False, 'hidden_word': 'S_ITTISH_ESS', 'word': 'SKITTISHNESS'}
+2022-12-13 17:40:07,107 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:40:07,108 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:40:07,109 - gameLogger - DEBUG - Game state sent: {'guess': 'Q', 'correct_guess': False, 'hidden_word': 'S_ITTISH_ESS', 'word': 'SKITTISHNESS'}
+2022-12-13 17:40:11,158 - gameLogger - INFO - There was a win
+2022-12-13 17:41:24,067 - gameLogger - INFO - New game
+2022-12-13 17:41:29,971 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:41:29,972 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:41:29,972 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '________', 'word': 'JOHNNIES'}
+2022-12-13 17:41:33,271 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:41:33,272 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:41:33,272 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': True, 'hidden_word': '______E_', 'word': 'JOHNNIES'}
+2022-12-13 17:41:51,403 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:41:56,953 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:41:56,953 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:41:56,954 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '______E_', 'word': 'JOHNNIES'}
+2022-12-13 17:42:01,843 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:42:01,844 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:42:01,844 - gameLogger - DEBUG - Game state sent: {'guess': 'S', 'correct_guess': True, 'hidden_word': '______ES', 'word': 'JOHNNIES'}
+2022-12-13 17:42:05,242 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:42:05,243 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:42:05,243 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': False, 'hidden_word': '______ES', 'word': 'JOHNNIES'}
+2022-12-13 17:42:09,024 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:42:09,024 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:42:09,025 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '______ES', 'word': 'JOHNNIES'}
+2022-12-13 17:42:12,882 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:42:12,882 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:42:12,883 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '______ES', 'word': 'JOHNNIES'}
+2022-12-13 17:42:15,735 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:42:15,736 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:42:15,736 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '______ES', 'word': 'JOHNNIES'}
+2022-12-13 17:42:18,050 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:42:18,051 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:42:18,051 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': '______ES', 'word': 'JOHNNIES'}
+2022-12-13 17:42:20,473 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:42:20,474 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:42:20,474 - gameLogger - DEBUG - Game state sent: {'guess': 'Y', 'correct_guess': False, 'hidden_word': '______ES', 'word': 'JOHNNIES'}
+2022-12-13 17:42:22,699 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:42:22,700 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:42:22,700 - gameLogger - DEBUG - Game state sent: {'guess': 'Z', 'correct_guess': False, 'hidden_word': '______ES', 'word': 'JOHNNIES'}
+2022-12-13 17:42:26,619 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:42:26,620 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:42:26,620 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': True, 'hidden_word': 'J_____ES', 'word': 'JOHNNIES'}
+2022-12-13 17:42:30,695 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:42:30,696 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:42:30,696 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': True, 'hidden_word': 'J____IES', 'word': 'JOHNNIES'}
+2022-12-13 17:42:33,502 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:42:33,503 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:42:33,503 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': True, 'hidden_word': 'J_H__IES', 'word': 'JOHNNIES'}
+2022-12-13 17:42:36,009 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:42:36,010 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:42:36,010 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': 'J_H__IES', 'word': 'JOHNNIES'}
+2022-12-13 17:42:38,530 - gameLogger - INFO - There was a win
+2022-12-13 17:42:40,831 - gameLogger - INFO - New game
+2022-12-13 17:44:50,839 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:44:50,841 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:44:50,841 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': False, 'hidden_word': '______', 'word': 'MIRING'}
+2022-12-13 17:44:59,733 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:44:59,734 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:44:59,734 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '______', 'word': 'MIRING'}
+2022-12-13 17:45:03,675 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:45:03,676 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:45:03,676 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '______', 'word': 'MIRING'}
+2022-12-13 17:45:06,727 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:45:06,729 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:45:06,729 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': True, 'hidden_word': '_____G', 'word': 'MIRING'}
+2022-12-13 17:45:10,052 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:45:10,065 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:45:10,065 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': False, 'hidden_word': '_____G', 'word': 'MIRING'}
+2022-12-13 17:45:17,254 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:45:17,255 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:45:17,255 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '_____G', 'word': 'MIRING'}
+2022-12-13 17:45:19,950 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:45:19,951 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:45:19,951 - gameLogger - DEBUG - Game state sent: {'guess': 'S', 'correct_guess': False, 'hidden_word': '_____G', 'word': 'MIRING'}
+2022-12-13 17:45:23,543 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:45:23,544 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:45:23,544 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '_____G', 'word': 'MIRING'}
+2022-12-13 17:45:27,046 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:45:27,047 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:45:27,047 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '_____G', 'word': 'MIRING'}
+2022-12-13 17:45:30,271 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:45:30,272 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:45:30,272 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': False, 'hidden_word': '_____G', 'word': 'MIRING'}
+2022-12-13 17:45:33,212 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:45:33,213 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:45:33,213 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': '_____G', 'word': 'MIRING'}
+2022-12-13 17:46:30,341 - gameLogger - INFO - New game
+2022-12-13 17:46:32,472 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:46:32,474 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:46:32,474 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '______', 'word': 'SHAUGH'}
+2022-12-13 17:46:41,426 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:46:41,427 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:46:41,427 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '______', 'word': 'SHAUGH'}
+2022-12-13 17:46:45,133 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:46:45,133 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:46:45,133 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': False, 'hidden_word': '______', 'word': 'SHAUGH'}
+2022-12-13 17:47:23,386 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:47:27,869 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:47:27,870 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:47:27,870 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': False, 'hidden_word': '______', 'word': 'SHAUGH'}
+2022-12-13 17:47:30,650 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:47:30,651 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:47:30,651 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': True, 'hidden_word': '___U__', 'word': 'SHAUGH'}
+2022-12-13 17:47:33,721 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:47:33,722 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:47:33,722 - gameLogger - DEBUG - Game state sent: {'guess': 'S', 'correct_guess': True, 'hidden_word': 'S__U__', 'word': 'SHAUGH'}
+2022-12-13 17:47:37,036 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:47:37,038 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:47:37,038 - gameLogger - DEBUG - Game state sent: {'guess': 'R', 'correct_guess': False, 'hidden_word': 'S__U__', 'word': 'SHAUGH'}
+2022-12-13 17:47:39,273 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:47:39,275 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:47:39,276 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': 'S__U__', 'word': 'SHAUGH'}
+2022-12-13 17:47:42,763 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:47:42,764 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:47:42,764 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': 'S__U__', 'word': 'SHAUGH'}
+2022-12-13 17:47:45,345 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:47:45,346 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:47:45,346 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': 'S__U__', 'word': 'SHAUGH'}
+2022-12-13 17:47:48,134 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:47:48,135 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:47:48,135 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': False, 'hidden_word': 'S__U__', 'word': 'SHAUGH'}
+2022-12-13 17:47:50,256 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:47:50,257 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:47:50,258 - gameLogger - DEBUG - Game state sent: {'guess': 'B', 'correct_guess': False, 'hidden_word': 'S__U__', 'word': 'SHAUGH'}
+2022-12-13 17:49:44,206 - gameLogger - INFO - New game
+2022-12-13 17:49:47,511 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:49:47,511 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:49:47,512 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': False, 'hidden_word': '_________', 'word': 'TEETALLER'}
+2022-12-13 17:49:50,863 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:49:50,864 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:49:50,864 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '_________', 'word': 'TEETALLER'}
+2022-12-13 17:49:56,051 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:49:56,052 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:49:56,052 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': True, 'hidden_word': '_EE____E_', 'word': 'TEETALLER'}
+2022-12-13 17:51:38,796 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:51:38,797 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:51:38,797 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '_EE____E_', 'word': 'TEETALLER'}
+2022-12-13 17:51:41,361 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:51:41,364 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:51:41,364 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': False, 'hidden_word': '_EE____E_', 'word': 'TEETALLER'}
+2022-12-13 17:51:43,999 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:51:44,000 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:51:44,000 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': '_EE____E_', 'word': 'TEETALLER'}
+2022-12-13 17:51:49,132 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:51:49,133 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:51:49,133 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': False, 'hidden_word': '_EE____E_', 'word': 'TEETALLER'}
+2022-12-13 17:51:53,298 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:51:53,299 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:51:53,299 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': '_EE____E_', 'word': 'TEETALLER'}
+2022-12-13 17:51:57,067 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:51:57,068 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:51:57,068 - gameLogger - DEBUG - Game state sent: {'guess': 'Y', 'correct_guess': False, 'hidden_word': '_EE____E_', 'word': 'TEETALLER'}
+2022-12-13 17:51:59,929 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:51:59,932 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:51:59,933 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '_EE____E_', 'word': 'TEETALLER'}
+2022-12-13 17:52:04,510 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:52:04,511 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:52:04,511 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': '_EE____E_', 'word': 'TEETALLER'}
+2022-12-13 17:55:06,828 - gameLogger - INFO - New game
+2022-12-13 17:55:09,288 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:09,291 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:55:09,291 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': True, 'hidden_word': '_______________E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:11,032 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:11,033 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:55:11,033 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '_______________E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:12,161 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:12,161 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:55:12,162 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': '_______________E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:13,004 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:13,005 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:55:13,005 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '_______________E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:14,306 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:14,307 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:55:14,307 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '_______________E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:15,792 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:15,793 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:55:15,793 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': '_______________E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:16,956 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:16,957 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:55:16,957 - gameLogger - DEBUG - Game state sent: {'guess': 'Z', 'correct_guess': False, 'hidden_word': '_______________E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:17,923 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:17,924 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:55:17,924 - gameLogger - DEBUG - Game state sent: {'guess': 'L', 'correct_guess': False, 'hidden_word': '_______________E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:19,194 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:19,195 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:55:19,196 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': True, 'hidden_word': '____________I__E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:20,051 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:22,951 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:22,952 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:55:22,952 - gameLogger - DEBUG - Game state sent: {'guess': 'P', 'correct_guess': True, 'hidden_word': '___P________I__E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:25,348 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:25,349 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:55:25,350 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': True, 'hidden_word': '___P________ID_E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:28,156 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:28,157 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:55:28,157 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': True, 'hidden_word': '___PT_______ID_E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:30,953 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:30,954 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:55:30,954 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '___PT_______ID_E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:34,049 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:34,050 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:55:34,050 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': True, 'hidden_word': '___PT______HID_E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:37,463 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:37,464 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:55:37,464 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': True, 'hidden_word': 'C__PT_____CHID_E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:40,228 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:40,229 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:55:40,229 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': 'C__PT_____CHID_E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:55:42,613 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:55:42,614 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:55:42,614 - gameLogger - DEBUG - Game state sent: {'guess': 'K', 'correct_guess': False, 'hidden_word': 'C__PT_____CHID_E', 'word': 'CRYPTOBRANCHIDAE'}
+2022-12-13 17:56:00,502 - gameLogger - INFO - New game
+2022-12-13 17:56:02,571 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:02,572 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:56:02,572 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': True, 'hidden_word': '___T________', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:03,972 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:05,159 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:06,228 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:06,229 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:56:06,229 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': True, 'hidden_word': '___T_____I__', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:07,660 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:07,661 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:56:07,661 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': '___T_____I__', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:09,107 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:09,108 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:56:09,108 - gameLogger - DEBUG - Game state sent: {'guess': 'K', 'correct_guess': False, 'hidden_word': '___T_____I__', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:10,629 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:10,630 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:56:10,631 - gameLogger - DEBUG - Game state sent: {'guess': 'L', 'correct_guess': False, 'hidden_word': '___T_____I__', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:12,621 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:12,622 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:56:12,622 - gameLogger - DEBUG - Game state sent: {'guess': 'M', 'correct_guess': False, 'hidden_word': '___T_____I__', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:14,175 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:14,176 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:56:14,176 - gameLogger - DEBUG - Game state sent: {'guess': 'Z', 'correct_guess': False, 'hidden_word': '___T_____I__', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:15,761 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:15,762 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:56:15,762 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '___T_____I__', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:17,616 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:17,617 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:56:17,617 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '___T_____I__', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:19,244 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:19,245 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:56:19,245 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': True, 'hidden_word': '_EET___E_I__', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:21,011 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:21,012 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:56:21,012 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '_EET___E_I__', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:23,477 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:23,478 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:56:23,478 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': False, 'hidden_word': '_EET___E_I__', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:26,206 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:26,206 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:56:26,207 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': True, 'hidden_word': '_EET__VE_I__', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:30,232 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:30,233 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:56:30,233 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': True, 'hidden_word': '_EETH_VE_I_H', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:33,061 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:56:33,062 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:56:33,062 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': '_EETH_VE_I_H', 'word': 'BEETHOVENISH'}
+2022-12-13 17:56:37,668 - gameLogger - INFO - There was a win
+2022-12-13 17:56:40,977 - gameLogger - INFO - New game
+2022-12-13 17:57:30,171 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:57:30,174 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:57:30,174 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': False, 'hidden_word': '______', 'word': 'REDARN'}
+2022-12-13 17:57:35,100 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:57:35,101 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:57:35,101 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '______', 'word': 'REDARN'}
+2022-12-13 17:57:37,957 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:57:37,957 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:57:37,958 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': '______', 'word': 'REDARN'}
+2022-12-13 17:57:40,663 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:57:40,664 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:57:40,664 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '______', 'word': 'REDARN'}
+2022-12-13 17:57:42,487 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:57:42,488 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:57:42,488 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '______', 'word': 'REDARN'}
+2022-12-13 17:57:44,668 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:57:44,669 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:57:44,669 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '______', 'word': 'REDARN'}
+2022-12-13 17:57:46,378 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:57:46,379 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:57:46,379 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': '______', 'word': 'REDARN'}
+2022-12-13 17:57:49,405 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:57:49,406 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:57:49,406 - gameLogger - DEBUG - Game state sent: {'guess': 'Y', 'correct_guess': False, 'hidden_word': '______', 'word': 'REDARN'}
+2022-12-13 17:57:51,065 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:57:51,066 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:57:51,066 - gameLogger - DEBUG - Game state sent: {'guess': 'Z', 'correct_guess': False, 'hidden_word': '______', 'word': 'REDARN'}
+2022-12-13 17:57:53,145 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:57:53,146 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:57:53,146 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': False, 'hidden_word': '______', 'word': 'REDARN'}
+2022-12-13 17:57:55,869 - gameLogger - INFO - There was a win
+2022-12-13 17:57:58,041 - gameLogger - INFO - New game
+2022-12-13 17:57:59,875 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:57:59,875 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:57:59,876 - gameLogger - DEBUG - Game state sent: {'guess': 'B', 'correct_guess': False, 'hidden_word': '________', 'word': 'TROPICAL'}
+2022-12-13 17:58:03,340 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:03,341 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:58:03,341 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': True, 'hidden_word': '_____C__', 'word': 'TROPICAL'}
+2022-12-13 17:58:06,133 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:06,134 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:58:06,134 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '_____C__', 'word': 'TROPICAL'}
+2022-12-13 17:58:09,262 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:09,264 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:58:09,264 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': False, 'hidden_word': '_____C__', 'word': 'TROPICAL'}
+2022-12-13 17:58:11,808 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:11,809 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:58:11,809 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '_____C__', 'word': 'TROPICAL'}
+2022-12-13 17:58:14,603 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:14,604 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:58:14,604 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '_____C__', 'word': 'TROPICAL'}
+2022-12-13 17:58:17,440 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:17,441 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:58:17,442 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '_____C__', 'word': 'TROPICAL'}
+2022-12-13 17:58:19,001 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:19,002 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:58:19,002 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '_____C__', 'word': 'TROPICAL'}
+2022-12-13 17:58:20,666 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:20,667 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:58:20,667 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': '_____C__', 'word': 'TROPICAL'}
+2022-12-13 17:58:22,253 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:22,254 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:58:22,254 - gameLogger - DEBUG - Game state sent: {'guess': 'Y', 'correct_guess': False, 'hidden_word': '_____C__', 'word': 'TROPICAL'}
+2022-12-13 17:58:23,888 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:23,888 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:58:23,889 - gameLogger - DEBUG - Game state sent: {'guess': 'Z', 'correct_guess': False, 'hidden_word': '_____C__', 'word': 'TROPICAL'}
+2022-12-13 17:58:25,666 - gameLogger - INFO - There was a win
+2022-12-13 17:58:28,135 - gameLogger - INFO - New game
+2022-12-13 17:58:55,021 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:55,023 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:58:55,023 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': True, 'hidden_word': '___D_____', 'word': 'CORDMAKER'}
+2022-12-13 17:58:58,234 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:58,235 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:58:58,235 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': True, 'hidden_word': '___D___E_', 'word': 'CORDMAKER'}
+2022-12-13 17:58:59,979 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:58:59,979 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:58:59,980 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '___D___E_', 'word': 'CORDMAKER'}
+2022-12-13 17:59:01,619 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:01,620 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:01,621 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': '___D___E_', 'word': 'CORDMAKER'}
+2022-12-13 17:59:03,195 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:03,196 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:03,196 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': False, 'hidden_word': '___D___E_', 'word': 'CORDMAKER'}
+2022-12-13 17:59:04,895 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:04,896 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:04,896 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': False, 'hidden_word': '___D___E_', 'word': 'CORDMAKER'}
+2022-12-13 17:59:06,540 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:06,541 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:06,541 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': '___D___E_', 'word': 'CORDMAKER'}
+2022-12-13 17:59:08,421 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:08,422 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:08,422 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '___D___E_', 'word': 'CORDMAKER'}
+2022-12-13 17:59:09,987 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:09,988 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:09,988 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': '___D___E_', 'word': 'CORDMAKER'}
+2022-12-13 17:59:11,811 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:11,812 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:11,812 - gameLogger - DEBUG - Game state sent: {'guess': 'Y', 'correct_guess': False, 'hidden_word': '___D___E_', 'word': 'CORDMAKER'}
+2022-12-13 17:59:14,112 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:14,112 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:14,113 - gameLogger - DEBUG - Game state sent: {'guess': 'Z', 'correct_guess': False, 'hidden_word': '___D___E_', 'word': 'CORDMAKER'}
+2022-12-13 17:59:15,724 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:15,725 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:15,726 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '___D___E_', 'word': 'CORDMAKER'}
+2022-12-13 17:59:22,024 - gameLogger - INFO - New game
+2022-12-13 17:59:23,532 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:23,532 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:23,533 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '______', 'word': 'ELATOR'}
+2022-12-13 17:59:25,960 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:25,961 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:59:25,961 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': True, 'hidden_word': 'E_____', 'word': 'ELATOR'}
+2022-12-13 17:59:28,013 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:28,013 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:28,014 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': 'E_____', 'word': 'ELATOR'}
+2022-12-13 17:59:29,750 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:29,753 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:29,753 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': 'E_____', 'word': 'ELATOR'}
+2022-12-13 17:59:33,025 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:33,026 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:33,026 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': False, 'hidden_word': 'E_____', 'word': 'ELATOR'}
+2022-12-13 17:59:35,732 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:35,732 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:35,733 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': False, 'hidden_word': 'E_____', 'word': 'ELATOR'}
+2022-12-13 17:59:38,155 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:38,156 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:38,156 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': 'E_____', 'word': 'ELATOR'}
+2022-12-13 17:59:40,096 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:40,097 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:40,097 - gameLogger - DEBUG - Game state sent: {'guess': 'K', 'correct_guess': False, 'hidden_word': 'E_____', 'word': 'ELATOR'}
+2022-12-13 17:59:42,025 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:42,026 - gameLogger - DEBUG - Your guess is True
+2022-12-13 17:59:42,026 - gameLogger - DEBUG - Game state sent: {'guess': 'L', 'correct_guess': True, 'hidden_word': 'EL____', 'word': 'ELATOR'}
+2022-12-13 17:59:44,353 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:44,354 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:44,354 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': 'EL____', 'word': 'ELATOR'}
+2022-12-13 17:59:47,050 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:47,050 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:47,050 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': 'EL____', 'word': 'ELATOR'}
+2022-12-13 17:59:49,660 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 17:59:49,661 - gameLogger - DEBUG - Your guess is False
+2022-12-13 17:59:49,661 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': 'EL____', 'word': 'ELATOR'}
+2022-12-13 18:00:03,996 - gameLogger - INFO - New game
+2022-12-13 18:00:07,110 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:00:07,111 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:00:07,111 - gameLogger - DEBUG - Game state sent: {'guess': 'Q', 'correct_guess': False, 'hidden_word': '_________', 'word': 'YOUNGLING'}
+2022-12-13 18:01:14,364 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:14,365 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:01:14,365 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': False, 'hidden_word': '_________', 'word': 'YOUNGLING'}
+2022-12-13 18:01:16,919 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:16,920 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:01:16,920 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': True, 'hidden_word': '____G___G', 'word': 'YOUNGLING'}
+2022-12-13 18:01:19,937 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:19,938 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:01:19,938 - gameLogger - DEBUG - Game state sent: {'guess': 'H', 'correct_guess': False, 'hidden_word': '____G___G', 'word': 'YOUNGLING'}
+2022-12-13 18:01:23,553 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:23,554 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:01:23,554 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': True, 'hidden_word': '____G_I_G', 'word': 'YOUNGLING'}
+2022-12-13 18:01:25,872 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:25,872 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:01:25,872 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '____G_I_G', 'word': 'YOUNGLING'}
+2022-12-13 18:01:28,021 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:28,022 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:01:28,022 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '____G_I_G', 'word': 'YOUNGLING'}
+2022-12-13 18:01:29,331 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:29,332 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:01:29,332 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': True, 'hidden_word': '__U_G_I_G', 'word': 'YOUNGLING'}
+2022-12-13 18:01:31,267 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:31,268 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:01:31,268 - gameLogger - DEBUG - Game state sent: {'guess': 'S', 'correct_guess': False, 'hidden_word': '__U_G_I_G', 'word': 'YOUNGLING'}
+2022-12-13 18:01:33,315 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:33,316 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:01:33,316 - gameLogger - DEBUG - Game state sent: {'guess': 'R', 'correct_guess': False, 'hidden_word': '__U_G_I_G', 'word': 'YOUNGLING'}
+2022-12-13 18:01:36,186 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:36,187 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:01:36,187 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': '__U_G_I_G', 'word': 'YOUNGLING'}
+2022-12-13 18:01:39,098 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:39,099 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:01:39,099 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': '__U_G_I_G', 'word': 'YOUNGLING'}
+2022-12-13 18:01:42,600 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:42,601 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:01:42,601 - gameLogger - DEBUG - Game state sent: {'guess': 'Y', 'correct_guess': True, 'hidden_word': 'Y_U_G_I_G', 'word': 'YOUNGLING'}
+2022-12-13 18:01:56,802 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:01:56,804 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:01:56,804 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': False, 'hidden_word': 'Y_U_G_I_G', 'word': 'YOUNGLING'}
+2022-12-13 18:02:04,453 - gameLogger - INFO - New game
+2022-12-13 18:02:06,266 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:06,266 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:02:06,267 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '_______', 'word': 'SAUGERS'}
+2022-12-13 18:02:09,040 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:09,041 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:02:09,041 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': True, 'hidden_word': '____E__', 'word': 'SAUGERS'}
+2022-12-13 18:02:13,009 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:13,009 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:02:13,010 - gameLogger - DEBUG - Game state sent: {'guess': 'R', 'correct_guess': True, 'hidden_word': '____ER_', 'word': 'SAUGERS'}
+2022-12-13 18:02:15,335 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:15,336 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:02:15,336 - gameLogger - DEBUG - Game state sent: {'guess': 'S', 'correct_guess': True, 'hidden_word': 'S___ERS', 'word': 'SAUGERS'}
+2022-12-13 18:02:17,129 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:17,130 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:02:17,130 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': False, 'hidden_word': 'S___ERS', 'word': 'SAUGERS'}
+2022-12-13 18:02:19,597 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:19,598 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:02:19,599 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': True, 'hidden_word': 'S_U_ERS', 'word': 'SAUGERS'}
+2022-12-13 18:02:28,653 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:28,656 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:02:28,656 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': False, 'hidden_word': 'S_U_ERS', 'word': 'SAUGERS'}
+2022-12-13 18:02:32,914 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:32,916 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:02:32,916 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': 'S_U_ERS', 'word': 'SAUGERS'}
+2022-12-13 18:02:35,269 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:35,270 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:02:35,270 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': 'S_U_ERS', 'word': 'SAUGERS'}
+2022-12-13 18:02:38,208 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:38,209 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:02:38,209 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': 'S_U_ERS', 'word': 'SAUGERS'}
+2022-12-13 18:02:41,260 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:41,261 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:02:41,261 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': 'S_U_ERS', 'word': 'SAUGERS'}
+2022-12-13 18:02:44,064 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:44,064 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:02:44,065 - gameLogger - DEBUG - Game state sent: {'guess': 'Y', 'correct_guess': False, 'hidden_word': 'S_U_ERS', 'word': 'SAUGERS'}
+2022-12-13 18:02:47,467 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:47,468 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:02:47,468 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': 'S_U_ERS', 'word': 'SAUGERS'}
+2022-12-13 18:02:50,497 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:02:50,498 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:02:50,498 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': False, 'hidden_word': 'S_U_ERS', 'word': 'SAUGERS'}
+2022-12-13 18:02:58,762 - gameLogger - INFO - New game
+2022-12-13 18:03:18,911 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:03:18,912 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:03:18,912 - gameLogger - DEBUG - Game state sent: {'guess': 'R', 'correct_guess': False, 'hidden_word': '________', 'word': 'PLATINIC'}
+2022-12-13 18:03:39,777 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:03:39,779 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:03:39,779 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': False, 'hidden_word': '________', 'word': 'PLATINIC'}
+2022-12-13 18:03:43,626 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:03:43,627 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:03:43,627 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '________', 'word': 'PLATINIC'}
+2022-12-13 18:03:46,635 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:03:46,636 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:03:46,636 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': True, 'hidden_word': '___T____', 'word': 'PLATINIC'}
+2022-12-13 18:03:48,357 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:03:48,358 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:03:48,358 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '___T____', 'word': 'PLATINIC'}
+2022-12-13 18:03:50,332 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:03:50,333 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:03:50,333 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '___T____', 'word': 'PLATINIC'}
+2022-12-13 18:03:52,885 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:03:52,886 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:03:52,886 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': '___T____', 'word': 'PLATINIC'}
+2022-12-13 18:03:55,577 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:03:55,577 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:03:55,578 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': '___T____', 'word': 'PLATINIC'}
+2022-12-13 18:04:00,376 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:04:00,377 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:04:00,377 - gameLogger - DEBUG - Game state sent: {'guess': 'Y', 'correct_guess': False, 'hidden_word': '___T____', 'word': 'PLATINIC'}
+2022-12-13 18:04:06,879 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:04:06,880 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:04:06,880 - gameLogger - DEBUG - Game state sent: {'guess': 'Z', 'correct_guess': False, 'hidden_word': '___T____', 'word': 'PLATINIC'}
+2022-12-13 18:04:09,753 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:04:09,754 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:04:09,754 - gameLogger - DEBUG - Game state sent: {'guess': 'K', 'correct_guess': False, 'hidden_word': '___T____', 'word': 'PLATINIC'}
+2022-12-13 18:07:20,625 - gameLogger - INFO - New game
+2022-12-13 18:08:12,291 - gameLogger - INFO - New game
+2022-12-13 18:08:21,527 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:08:21,530 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:08:21,530 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': True, 'hidden_word': '____E_', 'word': 'HALSER'}
+2022-12-13 18:08:38,521 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:08:38,522 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:08:38,522 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': False, 'hidden_word': '____E_', 'word': 'HALSER'}
+2022-12-13 18:08:48,377 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:08:48,377 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:08:48,377 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': False, 'hidden_word': '____E_', 'word': 'HALSER'}
+2022-12-13 18:08:51,485 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:08:51,486 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:08:51,486 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': False, 'hidden_word': '____E_', 'word': 'HALSER'}
+2022-12-13 18:08:56,334 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:08:56,335 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:08:56,336 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '____E_', 'word': 'HALSER'}
+2022-12-13 18:09:00,175 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:09:00,176 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:09:00,176 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': '____E_', 'word': 'HALSER'}
+2022-12-13 18:09:05,866 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:09:05,867 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:09:05,867 - gameLogger - DEBUG - Game state sent: {'guess': 'K', 'correct_guess': False, 'hidden_word': '____E_', 'word': 'HALSER'}
+2022-12-13 18:09:10,717 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:09:10,718 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:09:10,718 - gameLogger - DEBUG - Game state sent: {'guess': 'A', 'correct_guess': True, 'hidden_word': '_A__E_', 'word': 'HALSER'}
+2022-12-13 18:09:14,142 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:09:14,143 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:09:14,143 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': False, 'hidden_word': '_A__E_', 'word': 'HALSER'}
+2022-12-13 18:09:17,528 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:09:17,529 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:09:17,529 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': False, 'hidden_word': '_A__E_', 'word': 'HALSER'}
+2022-12-13 18:09:23,879 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:09:23,880 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:09:23,880 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': '_A__E_', 'word': 'HALSER'}
+2022-12-13 18:09:28,646 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:09:28,647 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:09:28,647 - gameLogger - DEBUG - Game state sent: {'guess': 'R', 'correct_guess': True, 'hidden_word': '_A__ER', 'word': 'HALSER'}
+2022-12-13 18:09:31,992 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:09:31,993 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:09:31,994 - gameLogger - DEBUG - Game state sent: {'guess': 'B', 'correct_guess': False, 'hidden_word': '_A__ER', 'word': 'HALSER'}
+2022-12-13 18:09:53,425 - gameLogger - INFO - New game
+2022-12-13 18:09:56,793 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:09:56,797 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:09:56,797 - gameLogger - DEBUG - Game state sent: {'guess': 'D', 'correct_guess': False, 'hidden_word': '_____________', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:09:57,762 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:09:57,762 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:09:57,763 - gameLogger - DEBUG - Game state sent: {'guess': 'G', 'correct_guess': True, 'hidden_word': '__________G__', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:09:58,994 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:09:58,994 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:09:58,995 - gameLogger - DEBUG - Game state sent: {'guess': 'X', 'correct_guess': False, 'hidden_word': '__________G__', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:00,391 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:00,392 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:10:00,392 - gameLogger - DEBUG - Game state sent: {'guess': 'I', 'correct_guess': True, 'hidden_word': '________I_G__', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:01,985 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:01,988 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:10:01,988 - gameLogger - DEBUG - Game state sent: {'guess': 'R', 'correct_guess': True, 'hidden_word': '_______RI_G__', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:03,441 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:03,442 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:10:03,442 - gameLogger - DEBUG - Game state sent: {'guess': 'F', 'correct_guess': True, 'hidden_word': '__F____RI_G__', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:04,531 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:04,532 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:10:04,532 - gameLogger - DEBUG - Game state sent: {'guess': 'U', 'correct_guess': True, 'hidden_word': 'U_F____RI_G__', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:05,397 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:05,398 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:10:05,398 - gameLogger - DEBUG - Game state sent: {'guess': 'V', 'correct_guess': False, 'hidden_word': 'U_F____RI_G__', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:06,631 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:06,632 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:10:06,632 - gameLogger - DEBUG - Game state sent: {'guess': 'J', 'correct_guess': False, 'hidden_word': 'U_F____RI_G__', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:07,843 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:08,668 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:08,669 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:10:08,669 - gameLogger - DEBUG - Game state sent: {'guess': 'L', 'correct_guess': True, 'hidden_word': 'U_F_L__RI_GL_', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:10,556 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:10,557 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:10:10,557 - gameLogger - DEBUG - Game state sent: {'guess': 'T', 'correct_guess': True, 'hidden_word': 'U_F_LT_RI_GL_', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:12,219 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:12,221 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:10:12,221 - gameLogger - DEBUG - Game state sent: {'guess': 'E', 'correct_guess': True, 'hidden_word': 'U_F_LTERI_GL_', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:13,464 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:13,465 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:10:13,465 - gameLogger - DEBUG - Game state sent: {'guess': 'C', 'correct_guess': False, 'hidden_word': 'U_F_LTERI_GL_', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:18,123 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:18,124 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:10:18,125 - gameLogger - DEBUG - Game state sent: {'guess': 'W', 'correct_guess': False, 'hidden_word': 'U_F_LTERI_GL_', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:20,728 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:20,728 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:10:20,728 - gameLogger - DEBUG - Game state sent: {'guess': 'Y', 'correct_guess': True, 'hidden_word': 'U_F_LTERI_GLY', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:23,371 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:23,372 - gameLogger - DEBUG - Your guess is False
+2022-12-13 18:10:23,373 - gameLogger - DEBUG - Game state sent: {'guess': 'O', 'correct_guess': False, 'hidden_word': 'U_F_LTERI_GLY', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:29,282 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:29,282 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:10:29,283 - gameLogger - DEBUG - Game state sent: {'guess': 'N', 'correct_guess': True, 'hidden_word': 'UNF_LTERINGLY', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:37,624 - gameLogger - INFO - Unfinished game, continuing
+2022-12-13 18:10:37,625 - gameLogger - DEBUG - Your guess is True
+2022-12-13 18:10:37,626 - gameLogger - DEBUG - Game state sent: {'guess': 'A', 'correct_guess': True, 'hidden_word': 'UNFALTERINGLY', 'word': 'UNFALTERINGLY'}
+2022-12-13 18:10:50,709 - gameLogger - INFO - There was a win

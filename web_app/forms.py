@@ -1,6 +1,6 @@
 from flask import flash
 from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField, SubmitField, BooleanField
+from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import InputRequired, Length, ValidationError, Email, EqualTo
 from web_app.models import User
 
@@ -11,7 +11,6 @@ class LoginForm(FlaskForm):
     
     password = PasswordField(validators=[InputRequired(), Length(
         min=4, max=20)], render_kw={"placeholder": "Password"})
-    remember = BooleanField("Remember Me")
     submit = SubmitField("Login")
 
 class RegistrationForm(FlaskForm):
@@ -31,7 +30,7 @@ class RegistrationForm(FlaskForm):
     submit = SubmitField("Register")
     
     
-    def validate_username(self, username):
+    def validate_username(self, username) -> None:
         existing_user_username = User.query.filter_by(
             username=username.data).first()
         if existing_user_username:
@@ -39,7 +38,7 @@ class RegistrationForm(FlaskForm):
             raise ValidationError(
                 "That username already exists. Please chose a different one.")
 
-    def validate_email(self, email):
+    def validate_email(self, email) -> None:
         existing_user_email = User.query.filter_by(
             email=email.data).first()
         if existing_user_email:
@@ -47,10 +46,6 @@ class RegistrationForm(FlaskForm):
             raise ValidationError(
                 "That email already exists. Please chose a different one.")
 
-class GameStart(FlaskForm):
-    guess_word = StringField(validators=[InputRequired(), Length(
-        min=1, max=8)], render_kw={"placeholder": "Guess the word"})
-    submit = SubmitField("Guess")
 
 class StartNewGame(FlaskForm):
     submit = SubmitField("Start new game")

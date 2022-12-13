@@ -1,0 +1,19 @@
+.list-games {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  width: 1000px;
+}
+#games {
+  border: 2px solid;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+#message {
+  font-size: 30px;
+}

@@ -3,19 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <title>Register</title>
+    <link rel="stylesheet" href="../static/register.css" />
   </head>
-
   <body>
-    <h1>Register page</h1>
-    {% for error in form.confirm_password.errors %} {{ error }} {% endfor %} {%
-    with messages = get_flashed_messages(with_categories=true) %} {% if messages
-    %} {% for category, message in messages %}
-    <div>{{ message }}</div>
-    {% endfor %} {% endif %} {% endwith %}
-    <form method="POST" action="">
-      {{ form.hidden_tag() }} {{ form.username }} {{ form.password }}
-      {{form.confirm_password}} {{form.email}} {{ form.submit }}
-    </form>
-    <a href="{{url_for('login')}}">Already have an account? Log in</a>
+    
+      <h1>Register page</h1>
+      <div class="register-main"></div>
+      {% for error in form.confirm_password.errors %} {{ error }} {% endfor %}
+      {% with messages = get_flashed_messages(with_categories=true) %} {% if
+      messages %} {% for category, message in messages %}
+      <div>{{ message }}</div>
+      {% endfor %} {% endif %} {% endwith %}
+      <div id="box">
+        <form class="form" method="POST" action="">
+          {{ form.hidden_tag() }} {{ form.username(style='font-size: 30px;') }} {{ form.password(style='font-size: 30px;') }}
+          {{form.confirm_password(style='font-size: 30px;')}} {{form.email(style='font-size: 30px;')}} {{ form.submit (style='font-size: 30px;')}}
+        </form>
+      </div>
+      <a href="{{url_for('login')}}">Already have an account? Log in</a>
+    </div>
   </body>
 </html>
