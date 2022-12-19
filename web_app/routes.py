@@ -6,7 +6,7 @@ from web_app.models import User, ArchiveData
 from web_app.forms import LoginForm, RegistrationForm, StartNewGame
 from web_app import app, bcrypt, db
 from random_word import RandomWords
-from web_app.game_new_continue_end import StartContinueEnd, WinLost
+from web_app.game_new_continue_end import StartContinueEnd, WonLost
 from flask.logging import default_handler
 import re
 import logging
@@ -42,7 +42,7 @@ def hangman():
     game = CurrenGameData(current_user.id)
     hidden_word = hangman.hide_word(word)
     game_progress = StartContinueEnd(current_user.id, hidden_word, word)
-    won_or_lost = WinLost(current_user.id)
+    won_or_lost = WonLost(current_user.id)
 
     if game_progress.new_game_check() == True:
         game_progress.new_entrie()
@@ -85,16 +85,14 @@ def fetch():
 def menu():
     form = StartNewGame()
     archive = ArchiveGames(current_user.id)
-    won_or_lost = WinLost(current_user.id)
+    won_or_lost = WonLost(current_user.id)
     try:
         archive.archive_data(f"{won_or_lost.won()}")
     except Exception as e:
        logger.warning(f"Nothing to archive {e}") 
     all_games = ArchiveData.query.all()
     all_games = list(all_games)
-    print(all_games[0].user_id)
     usernames = [User.query.filter_by(id=all_games[i].user_id).first().username for i in range(0, len(all_games))]
-    print(usernames)
     if form.validate_on_submit():
         return redirect(url_for("hangman"))
     return render_template(

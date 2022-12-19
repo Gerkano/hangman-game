@@ -1,11 +1,9 @@
 const guess_submit = document.getElementsByName("letter");
-console.log(guess_submit[2].value);
 
 function usedLetters() {
   fetch("/fetch")
     .then((response) => response.json())
     .then(function (data) {
-      console.log(data[0]);
       for (let i = 0; i < guess_submit.length; i++) {
         if (data[0].includes(guess_submit[i].value)) {
           gsap.to(guess_submit[i], { y: -100, duration: 0.7, opacity: 0 });
@@ -23,7 +21,6 @@ function hangMan() {
   fetch("/fetch")
     .then((response) => response.json())
     .then(function (data) {
-      console.log(data[1]);
       let hidden = document.getElementById("hidden_word").textContent;
       if (hidden.includes("_") == false) {
         let win = document.getElementById("win-message");

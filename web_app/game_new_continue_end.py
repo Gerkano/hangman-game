@@ -35,7 +35,7 @@ class StartContinueEnd:
         return hidden_word
     
 
-class WinLost():
+class WonLost():
     def __init__(self, user: str) -> None:
         self.user = user
         self.data_add = CurrenGameData(self.user)
@@ -46,6 +46,7 @@ class WinLost():
             logger.info("There was a win")
             return True
         else: 
+            logger.info("There was a loss")
             return False
 
     def lost(self) -> bool:

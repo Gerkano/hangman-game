@@ -1,11 +1,6 @@
 from typing import Tuple
 from web_app.models import GameState, ArchiveData
 from web_app import db
-import logging
-import logging.config
-
-logging.config.fileConfig('logging.conf',defaults={'logfilename': 'logs.log'})
-logger = logging.getLogger('gameLogger')
 
 
 class CurrenGameData:
@@ -59,9 +54,9 @@ class ArchiveGames:
             )
         db.session.add(archive)
         db.session.commit()
-        self.clear_gamestate()
+        self._clear_gamestate()
         
-    def clear_gamestate(self) -> None:
+    def _clear_gamestate(self) -> None:
         for _ in range(0, len(self.list_of_moves)):
             GameState.query.filter_by(user_id=self.user).delete()
             db.session.commit()
