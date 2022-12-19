@@ -1,8 +1,14 @@
+.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
 .list-games {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3%;
+  margin-top: 1%;
   width: 1000px;
 }
 #games {
@@ -13,7 +19,41 @@
   align-items: center;
   font-size: 25px;
 }
+th,
+td {
+  border: 2px solid;
+  position: relative;
 
+  font-size: 25px;
+}
 #message {
   font-size: 30px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+#form {
+  border: 2px solid;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6%;
+}
+
+#head {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

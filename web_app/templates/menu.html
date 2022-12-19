@@ -7,16 +7,45 @@
   </head>
 
   <body>
-    <h1>Start new game</h1>
     {% with messages = get_flashed_messages(with_categories=true) %} {% if
     messages %} {% for category, message in messages %}
     <div id="message">{{ message }}</div>
     {% endfor %} {% endif %} {% endwith %}
-    <form method="POST" action="">
-      {{ form.hidden_tag() }} {{ form.submit(style='font-size: 30px;') }}
-    </form>
-    <div class="list-games">
-      <p id="games">{{games}}</p>
+    <div class="form">
+      <form id="form" method="POST" action="">
+        {{ form.hidden_tag() }} {{ form.submit(style='font-size: 30px;') }}
+      </form>
     </div>
+    <div class="head">
+      <h1 id="head">All games:</h1>
+    </div>
+    <div class="results">
+      <div class="list-games">
+        <!-- <p id="games">{{games}}</p> -->
+        <table id="games">
+          <tr>
+            <th>Player</th>
+            <th>Game</th>
+            <th>Word</th>
+            <th>Guesses</th>
+            <th>Correct</th>
+            <th>Incorrect</th>
+            <th>Win</th>
+          </tr>
+          {% for game, user in games|zip(users) %}
+          <tr>
+            <td>{{ user }}</td>
+            <td>{{ game['id'] }}</td>
+            <td>{{ game['word'] }}</td>
+            <td>{{ game['guess_list'] }}</td>
+            <td>{{ game['correct_guess_count'] }}</td>
+            <td>{{ game['incorrect_guess_count'] }}</td>
+            <td id="win-collor">{{ game['win'] }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+    <script src="../static/menu.js"></script>
   </body>
 </html>

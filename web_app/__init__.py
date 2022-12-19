@@ -5,6 +5,7 @@ from flask_bcrypt import Bcrypt
 import os
 
 app = Flask(__name__)
+app.jinja_env.filters['zip'] = zip
 bcrypt = Bcrypt(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///userdata.db'
 app.config['SECRET_KEY'] = '5sfJAid482fdKhdfs'

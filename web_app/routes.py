@@ -9,6 +9,12 @@ from random_word import RandomWords
 from web_app.game_new_continue_end import StartContinueEnd, WinLost
 from flask.logging import default_handler
 import re
+import logging
+import logging.config
+
+
+logging.config.fileConfig('logging.conf',defaults={'logfilename': 'logs.log'})
+logger = logging.getLogger('gameLogger')
 
 app.logger.removeHandler(default_handler)
 
@@ -46,6 +52,7 @@ def hangman():
         return redirect(url_for("menu"))
     else:
         hidden_word = game_progress.continue_game()
+
     if request.method == 'POST':
         pattern_upper_letter = r"[A-Z]"
         if re.search(pattern_upper_letter, request.form["letter"]):
@@ -60,6 +67,7 @@ def hangman():
                 game_checker["correct_guess"], 
                 hidden_word, 
                 word)
+
     return render_template('hangman.html', username=current_user.username.upper(), hangman=hidden_word)
 
 @app.route('/fetch', methods=['GET', 'POST'])
@@ -68,11 +76,6 @@ def fetch():
     game = CurrenGameData(current_user.id)
     used_letters = [i.guess for i in game.all_turns]
     wrong_guess_count = len([i.correct_guess for i in game.all_turns if i.correct_guess == "0"])
-    guess_count_message = 9 - wrong_guess_count
-    message = f"Mistakes allowed: {guess_count_message}"
-    if guess_count_message < 0:
-        message = "Game is lost"
-    flash(message)
     last_guess = game.all_turns[-1].correct_guess
     return jsonify(used_letters[1:], wrong_guess_count, last_guess)
 
@@ -85,12 +88,21 @@ def menu():
     won_or_lost = WinLost(current_user.id)
     try:
         archive.archive_data(f"{won_or_lost.won()}")
-    except:
-        return redirect(url_for("hangman"))
-    all_games = ArchiveData.query.filter_by(user_id=current_user.id).all()
+    except Exception as e:
+       logger.warning(f"Nothing to archive {e}") 
+    all_games = ArchiveData.query.all()
+    all_games = list(all_games)
+    print(all_games[0].user_id)
+    usernames = [User.query.filter_by(id=all_games[i].user_id).first().username for i in range(0, len(all_games))]
+    print(usernames)
     if form.validate_on_submit():
         return redirect(url_for("hangman"))
-    return render_template('menu.html', form=form, games=all_games)
+    return render_template(
+        'menu.html', 
+        form=form, 
+        games=all_games, 
+        users=usernames
+        )
 
 
 @app.route('/logout', methods=["GET", "POST"])

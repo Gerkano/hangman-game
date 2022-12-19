@@ -2,4 +2,5 @@ venv
 web_app/__pycache__
 instance/
 .mypy_cache/
-.log
+logs.log
+.vscode/

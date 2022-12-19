@@ -24,6 +24,18 @@ function hangMan() {
     .then((response) => response.json())
     .then(function (data) {
       console.log(data[1]);
+      let hidden = document.getElementById("hidden_word").textContent;
+      if (hidden.includes("_") == false) {
+        let win = document.getElementById("win-message");
+        win.style.visibility = "visible";
+        gsap.from(win, {
+          duration: 1,
+          opacity: 0,
+        });
+        setTimeout(() => {
+          location.href = "/menu";
+        }, 4000);
+      }
       if (data[1] > 0) {
         for (let i = 1; i <= data[1]; i++) {
           let body_part = document.getElementById(`${i}`);
@@ -43,6 +55,12 @@ function hangMan() {
               opacity: 0,
             });
             if (data[1] == 10) {
+              let lost = document.getElementById("lost-message");
+              lost.style.visibility = "visible";
+              gsap.from(lost, {
+                duration: 1,
+                opacity: 0,
+              });
               setTimeout(() => {
                 location.href = "/menu";
               }, 4000);

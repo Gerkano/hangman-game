@@ -1,6 +1,6 @@
 from web_app import db
 from flask_login import UserMixin
-
+from flask_sqlalchemy.model import DefaultMeta
 
 class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
@@ -25,12 +25,3 @@ class ArchiveData(db.Model):
     incorrect_guess_count = db.Column(db.String(20), nullable=False)
     word = db.Column(db.String(40), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
-
-    def __repr__(self):
-        return str({
-            'Player ID': None, 
-            'Game': self.id, 
-            'Word': self.word, 
-            'Guesses': self.guess_list, 
-            'Win': self.win
-            })

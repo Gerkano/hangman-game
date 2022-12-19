@@ -9,10 +9,12 @@
   <body>
     <div class="login-main"></div>
     <h1>Login page</h1>
+    <div class="flash-message">
     {% with messages = get_flashed_messages(with_categories=true) %} {% if
     messages %} {% for category, message in messages %}
-    <div>{{ message }}</div>
+    <div class="message">{{ message }}</div>
     {% endfor %} {% endif %} {% endwith %}
+  </div >
     <div id="box">
       <form class="form" method="POST" action="">
         {{ form.hidden_tag() }} {{ form.username(style='font-size: 30px;') }} {{ form.password(style='font-size: 30px;') }} {{
