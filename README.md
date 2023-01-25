@@ -23,6 +23,10 @@ Activate the virtual environment
 ```
 .\venv\Scripts\activate
 ```
+On MacOS & Linux
+```
+source venv/bin/activate
+```
 
 Install requirements
 
